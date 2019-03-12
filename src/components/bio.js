@@ -15,7 +15,9 @@ function Bio(props) {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author } = props
+        const { social } = props
+        let { author } = props
+        author = <strong>{author}</strong>
         return (
           <div
             style={{
@@ -37,7 +39,7 @@ function Bio(props) {
               }}
             /> */}
             <p>
-              Written by <strong>{author}</strong>.
+          Written by {social!="" ? <a href={social}>{author}</a> : author}.
             </p>
           </div>
         )
