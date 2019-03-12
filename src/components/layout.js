@@ -49,7 +49,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title} <span role={"img"} aria-label={"Female Cook"}>👩‍🍳</span>
+            {title} <span role={"img"} aria-label={"Cook"}>👩‍🍳👨‍🍳</span>
           </Link>
         </h3>
       )

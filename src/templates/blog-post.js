@@ -82,6 +82,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        time
         date(formatString: "MMMM DD, YYYY")
         author
         social

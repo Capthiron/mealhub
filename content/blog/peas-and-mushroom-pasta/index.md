@@ -1,9 +1,9 @@
 ---
 title: Peas and Mushroom Pasta 🍝
+time: "25"
 date: "2019-03-12T19:06:03.284Z"
 author: Dario Leittersdorf
 social: https://github.com/Capthiron
-time: 30
 ---
 
 ![Dish](./peas_shrooms.jpg)

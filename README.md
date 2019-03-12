@@ -1,6 +1,6 @@
 # [quick-meal.ml](https://quick-meal.ml)
 
-Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog).
+Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog) with a lot of inspiration from Dan Abramov and his **[overreacted.io](https://overreacted.io/)**.
 To run locally, `yarn`, then `yarn start`, then open https://localhost:8000
 
 ## Contribute with your Recipe
@@ -13,6 +13,7 @@ To have them added to [Quick Meal](https://quick-meal.ml) just open a PR for you
 ```
 ---
 title: <Title>
+time: <Number of minutes> (e.g. "5", "" if not known)
 date: <Date> (e.g. "2019-03-12T15:38:03.284Z")
 author: <Author>
 social: <Author Social Link> (e.g. https://github.com/Capthiron, "" if not wanted)
@@ -22,3 +23,7 @@ social: <Author Social Link> (e.g. https://github.com/Capthiron, "" if not wante
 ```
 
 You can also take a look at the already existing posts in the [`content/blog`](https://github.com/Capthiron/quick-meal-blog/tree/master/content/blog) directory.
+
+### More Swag with Emojis 🍆🤓
+
+To give your posts the right amount of flavour you can try and add some emojis. You can find them [here](https://emojipedia.org).
