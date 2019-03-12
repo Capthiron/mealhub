@@ -1,5 +1,6 @@
 ---
 title: Hello Quick Meal!
+time: ""
 date: "2019-03-12T15:38:03.284Z"
 author: Dario Leittersdorf
 social: https://github.com/Capthiron
