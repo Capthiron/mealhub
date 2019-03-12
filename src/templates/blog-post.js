@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import timeFormatter from "../utils/timeFormatter"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -27,7 +28,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {post.frontmatter.date} {timeFormatter(post.frontmatter.time)}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
