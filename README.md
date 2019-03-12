@@ -1,6 +1,6 @@
 # [quick-meal.ml]{https://quick-meal.ml}
 
-Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog). Syntax theme based on [Sarah Drasner's Night Owl](https://github.com/sdras/night-owl-vscode-theme/)
+Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog).
 To run locally, `yarn`, then `yarn start`, then open https://localhost:8000
 
 ## Contribute with you Recipe
