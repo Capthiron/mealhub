@@ -2,6 +2,7 @@
 title: Hello Quick Meal!
 date: "2019-03-12T15:38:03.284Z"
 author: Dario Leittersdorf
+social: https://github.com/Capthiron
 ---
 
 This is the first post on the quick meals blog! How exciting!
