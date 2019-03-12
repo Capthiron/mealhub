@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import timeFormatter from "../utils/timeFormatter"
 
 class BlogIndex extends React.Component {
   render() {
@@ -31,7 +32,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date} {time!=="" ? `• ${"🔪".repeat((time/12)+1)} ${time} minutes` : ""}</small>
+              <small>{node.frontmatter.date} {timeFormatter(time)}</small>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.excerpt,
