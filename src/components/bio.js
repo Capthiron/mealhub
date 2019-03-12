@@ -39,7 +39,7 @@ function Bio(props) {
               }}
             /> */}
             <p>
-          Written by {social!=="" ? <a href={social}>{author}</a> : author}.
+            🔪 Cooked by {social!=="" ? <a href={social}>{author}</a> : author}.
             </p>
           </div>
         )
