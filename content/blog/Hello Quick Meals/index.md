@@ -2,7 +2,6 @@
 title: Hello Quick Meal!
 date: "2015-05-01T22:12:03.284Z"
 author: Dario Leittersdorf
-description: This is the first post on the quick meals blog! How exciting!
 ---
 
 This is the first post on the quick meals blog! How exciting!
