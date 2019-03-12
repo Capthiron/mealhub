@@ -21,4 +21,4 @@ social: <Author Social Link> (e.g. https://github.com/Capthiron, "" if not wante
 <!-- Content here -->
 ```
 
-You can also take a look at the already existing posts in the `content/blog` directory.
+You can also take a look at the already existing posts in the [`content/blog`](https://github.com/Capthiron/quick-meal-blog/tree/master/content/blog) directory.
