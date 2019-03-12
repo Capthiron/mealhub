@@ -2,11 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Quick Meal Blog`,
     author: `Dario Leittersdorf`,
-    description: `A collaboration to share quick and easy to prepare meal recipes`,
+    description: `A collaborational blog to share quick and easy to prepare meal recipes`,
     siteUrl: `https://quick-meal.ml`,
-    social: {
-      twitter: `kylemathews`,
-    },
   },
   plugins: [
     {
