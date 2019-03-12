@@ -11,24 +11,27 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
+          <div>
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h1>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h1>
+          <p>Recipes for meals that are quick and easy to prepare. Perfect for any workaholic with a lack of time... ⏳💼➡🏠👩‍🍳👍</p>
+        </div>
       )
     } else {
       header = (
@@ -46,7 +49,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+            {title} 👩‍🍳
           </Link>
         </h3>
       )
@@ -66,6 +69,7 @@ class Layout extends React.Component {
           © {new Date().getFullYear()}, contribute on
           {` `}
           <a href="https://github.com/Capthiron/quick-meal-blog">Github</a>
+          <span style={{float: "right"}}><Link to={`/rss.xml`}>RSS</Link></span>
         </footer>
       </div>
     )
