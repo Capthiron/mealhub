@@ -30,7 +30,7 @@ class Layout extends React.Component {
               {title}
             </Link>
           </h1>
-          <p>Recipes of meals that are quick and easy to prepare. Perfect for any workaholic with a lack of time... <span role={"img"} aria-label={"Emoji Story"}>⏳💼➡🏠👩‍🍳👍</span></p>
+          <p>Food recipes that are quick and easy to prepare. Perfect for any workaholic with a lack of time... <span role={"img"} aria-label={"Emoji Story"}>⏳💼➡🏠👩‍🍳👍</span></p>
         </div>
       )
     } else {
