@@ -58,6 +58,6 @@ Mix with Pasta and add some more pasta water if desired. Season with parmesan, p
 
 _Original recipe by [Meike](http://smamunir.de)_
 
-_Image by KptnCook_
+_Image by [KptnCook](https://www.kptncook.com/)_
 
 _Gif by [Giphy](https://giphy.com/gifs/gzE15pfW1jxkI)_
