@@ -3,6 +3,7 @@ title: Peas and Mushroom Pasta 🍝
 date: "2019-03-12T19:06:03.284Z"
 author: Dario Leittersdorf
 social: https://github.com/Capthiron
+time: 30
 ---
 
 ![Dish](./peas_shrooms.jpg)
@@ -53,4 +54,10 @@ Mix with Pasta and add some more pasta water if desired. Season with parmesan, p
 |-----|---------|-----|------|
 | 544 | 24g     | 15g | 75g  |
 
+![Hmmmm Pasta](./paaaasta.gif)
+
 _Original recipe by [Meike](http://smamunir.de)_
+
+_Image by KptnCook_
+
+_Gif by [Giphy](https://giphy.com/gifs/gzE15pfW1jxkI)_
