@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Quick Meal Blog`,
+    title: `Quick Meal 👩‍🍳👨‍🍳`,
     author: `Dario Leittersdorf`,
     description: `A collaborational blog to share quick and easy to prepare meal recipes`,
     siteUrl: `https://quick-meal.ml`,
@@ -54,8 +54,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Quick Meal Blog`,
-        short_name: `QMB`,
+        name: `Quick Meal`,
+        short_name: `QM`,
         start_url: `/`,
         background_color: `#f0f8ff`,
         theme_color: `#663399`,
