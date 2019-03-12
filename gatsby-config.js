@@ -54,13 +54,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Quick Meal Blog`,
+        short_name: `QMB`,
         start_url: `/`,
         background_color: `#f0f8ff`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        display: `fullscreen`,
+        icon: `content/assets/chef-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
