@@ -55,7 +55,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Quick Meal`,
-        short_name: `QckMl`,
+        short_name: `quick(meal)`,
         start_url: `/`,
         background_color: `#f0f8ff`,
         theme_color: `#663399`,
