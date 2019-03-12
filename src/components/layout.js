@@ -30,7 +30,7 @@ class Layout extends React.Component {
               {title}
             </Link>
           </h1>
-          <p>Recipes for meals that are quick and easy to prepare. Perfect for any workaholic with a lack of time... ⏳💼➡🏠👩‍🍳👍</p>
+          <p>Recipes for meals that are quick and easy to prepare. Perfect for any workaholic with a lack of time... <span role={"img"} aria-label={"Emoji Story"}>⏳💼➡🏠👩‍🍳👍</span></p>
         </div>
       )
     } else {
@@ -49,7 +49,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title} 👩‍🍳
+            {title} <span role={"img"} aria-label={"Female Cook"}>👩‍🍳</span>
           </Link>
         </h3>
       )
@@ -69,7 +69,7 @@ class Layout extends React.Component {
           © {new Date().getFullYear()}, contribute on
           {` `}
           <a href="https://github.com/Capthiron/quick-meal-blog">Github</a>
-          <span style={{float: "right"}}><Link to={`/rss.xml`}>RSS</Link></span>
+          <span style={{float: "right"}}><a href={`/rss.xml`} target="_blank" rel="noopener noreferrer">RSS</a></span>
         </footer>
       </div>
     )

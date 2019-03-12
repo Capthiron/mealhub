@@ -39,7 +39,7 @@ function Bio(props) {
               }}
             /> */}
             <p>
-            🔪 Cooked by {social!=="" ? <a href={social}>{author}</a> : author}.
+            <span role={"img"} aria-label={"Kitchen Knife"}>🔪</span> Cooked by {social!=="" ? <a href={social}>{author}</a> : author}.
             </p>
           </div>
         )
