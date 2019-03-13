@@ -6,7 +6,7 @@ author: Dario Leittersdorf
 social: https://github.com/Capthiron
 ---
 
-This is the first post on the MealHub! How exciting!
+This is the first post on MealHub - How exciting! 👻
 
 It is a place to share quick and easy to prepare meals for everyone.
 
