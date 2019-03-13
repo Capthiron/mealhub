@@ -5,10 +5,11 @@ Hosted via [Netlify](https://www.netlify.com/).
 To run locally, `yarn`, then `yarn start`, then open https://localhost:8000
 
 ## Contribute with your Recipe
+1. Fork the project.
 
-Add an `index.md` file containing your recipe to the content folder. For example `index.md` in `content/blog/your-blog-title/`.
+2. Add an `index.md` file containing your recipe to the content folder. For example `index.md` in `content/blog/your-blog-title/`.
 
-To have them added to [MealHub](https://quick-meal.ml) just open a PR for your contribution.
+3. To have them added to [MealHub](https://quick-meal.ml) just create a **pull request** with your contribution.
 
 ### Basic `index.md` Template
 ```
