@@ -17,6 +17,11 @@ time: <Number of minutes> (e.g. "5", "" if not known)
 date: <Date> (e.g. "2019-03-12T15:38:03.284Z")
 author: <Author>
 social: <Author Social Link> (e.g. https://github.com/Capthiron, "" if not wanted)
+tags:
+- Vegetarian
+- Vegan
+- Fitness
+(Add some descriptive and meaningful tags)
 ---
 
 <!-- Content here -->
