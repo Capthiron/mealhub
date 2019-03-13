@@ -10,7 +10,7 @@ This is the first post on the MealHub! How exciting!
 
 It is a place to share quick and easy to prepare meals for everyone.
 
-If you'd like to contribute with your own recipes hop over to [Github](https://github.com/Capthiron/quick-meal-blog), follow the instructions and off you go... 🚀
+If you'd like to contribute with your own recipes hop over to [Github](https://github.com/Capthiron/mealhub), follow the instructions and off you go... 🚀
 
 **Let's get this going!**
 

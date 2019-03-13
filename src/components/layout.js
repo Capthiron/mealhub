@@ -69,7 +69,7 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}, contribute on
           {` `}
-          <a href="https://github.com/Capthiron/quick-meal-blog">Github</a>
+          <a href="https://github.com/Capthiron/mealhub">Github</a>
           <span style={{float: "right"}}><a href={`/rss.xml`} target="_blank" rel="noopener noreferrer">rss</a></span>
         </footer>
       </div>

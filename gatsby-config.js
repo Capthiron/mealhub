@@ -3,7 +3,7 @@ module.exports = {
     title: `MealHub 👩‍🍳👨‍🍳`,
     author: `Dario Leittersdorf`,
     description: `A collaborational blog to share quick and easy to prepare meal recipes`,
-    siteUrl: `https://quick-meal.ml`,
+    siteUrl: `https://mealhub.ml`,
   },
   plugins: [
     {

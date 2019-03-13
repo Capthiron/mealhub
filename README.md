@@ -1,4 +1,4 @@
-# [quick-meal.ml](https://quick-meal.ml)
+# [mealhub.ml](https://mealhub.ml)
 
 Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog) with a lot of inspiration from Dan Abramov and his **[overreacted.io](https://overreacted.io/)**.
 To run locally, `yarn`, then `yarn start`, then open https://localhost:8000
@@ -7,7 +7,7 @@ To run locally, `yarn`, then `yarn start`, then open https://localhost:8000
 
 Add a `index.md` file containing your recipe to the content folder. For example `index.md` in `content/blog/your-blog-title/`.
 
-To have them added to [Quick Meal](https://quick-meal.ml) just open a PR for your contribution.
+To have them added to [MealHub](https://quick-meal.ml) just open a PR for your contribution.
 
 ### Basic `index.md` Template
 ```
@@ -22,7 +22,7 @@ social: <Author Social Link> (e.g. https://github.com/Capthiron, "" if not wante
 <!-- Content here -->
 ```
 
-You can also take a look at the already existing posts in the [`content/blog`](https://github.com/Capthiron/quick-meal-blog/tree/master/content/blog) directory.
+You can also take a look at the already existing posts in the [`content/blog`](https://github.com/Capthiron/mealhub/tree/master/content/blog) directory.
 
 ### More Swag with Emojis 🍆🤓
 
