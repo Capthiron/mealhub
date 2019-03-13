@@ -4,6 +4,9 @@ time: "25"
 date: "2019-03-12T19:06:03.284Z"
 author: Dario Leittersdorf
 social: https://github.com/Capthiron
+tags:
+- Vegetarian
+- Fitness
 ---
 
 ![Dish](./peas_shrooms.jpg)

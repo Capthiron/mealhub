@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
-import timeFormatter from "../utils/timeFormatter"
+import PostDescription from "../components/post-description";
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -20,16 +20,9 @@ class BlogPostTemplate extends React.Component {
           description={post.excerpt}
         />
         <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date} {timeFormatter(post.frontmatter.time)}
-        </p>
+        <span style={{...scale(-1 / 5), display: `block`, marginBottom: rhythm(1), marginTop: rhythm(-1),}}>
+        <PostDescription date={post.frontmatter.date} time={post.frontmatter.time} tags={post.frontmatter.tags}/>
+        </span>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
@@ -87,6 +80,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         author
         social
+        tags
       }
     }
   }

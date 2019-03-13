@@ -3,8 +3,8 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PostDescription from "../components/post-description"
 import { rhythm } from "../utils/typography"
-import timeFormatter from "../utils/timeFormatter"
 
 class BlogIndex extends React.Component {
   render() {
@@ -20,7 +20,6 @@ class BlogIndex extends React.Component {
         />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
-          const time = node.frontmatter.time
           return (
             <div key={node.fields.slug}>
               <h3
@@ -32,7 +31,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date} {timeFormatter(time)}</small>
+              <PostDescription date={node.frontmatter.date} time={node.frontmatter.time} tags={node.frontmatter.tags}/>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.excerpt,
@@ -66,6 +65,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             time
+            tags
           }
         }
       }
