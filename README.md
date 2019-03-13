@@ -1,6 +1,7 @@
 # [mealhub.ml](https://mealhub.ml)
 
 Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog) with a lot of inspiration from Dan Abramov and his **[overreacted.io](https://overreacted.io/)**.
+Hosted via [Netlify](https://www.netlify.com/).
 To run locally, `yarn`, then `yarn start`, then open https://localhost:8000
 
 ## Contribute with your Recipe
